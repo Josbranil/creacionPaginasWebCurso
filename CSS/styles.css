@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* A continuación los estilos generales */
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Acá tengo los estilos del header */
+
+header h3 {
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #121f3d;
+    padding: 3%;
+}
+
+/* Acá están los estilos del hero */
+
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    color: #fff;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 0 50px;
+}
+
+#hero .informacion-contenedor #foto {
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    color: rgb(189, 206, 226);
+    margin-bottom: 10%;
+}
+
+/* Estilos del main */
+
+main {
+    padding: 10%;
+    text-align: left;
+}
+
+main p a {
+    text-decoration: none;
+}
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li {
+    margin-left: 8px;
+}
+
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #LinkedIn {
+    background-color: #0077b0;
+}
+
+main .social-icons #GitHub {
+    background-color: #23272d;
+}
+
+main .social-icons #Platzi {
+    background-color: #121f3d
+}
+
+@media (max-width: 550px) {
+    #hero .informacion-contenedor {
+        padding: 0 10px;
+    }
+
+    #hero .informacion-contenedor #foto {
+        flex-direction: column;
+        justify-content: center;
+        width: 500%;
+    }
+
+    #hero .informacion-contenedor .informacion {
+        font-weight: bold;
+        font-size:medium;
+        width: 1000%;
+    }
+}
