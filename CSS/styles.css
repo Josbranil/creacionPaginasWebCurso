@@ -67,6 +67,10 @@ header {
     width: calc(100% - 200px);
 }
 
+#hero .informacion-contenedor .informacion h3 {
+    color: #423eff;
+}
+
 #hero .informacion-contenedor .informacion span {
     display: inline-block;
     color: rgb(189, 206, 226);
