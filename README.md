@@ -1,1 +1,1 @@
-# Página web de ejemplo para mostrar mi información de perfil profesional.
+# Página web de ejemplo para mostrar información de mi perfil profesional.
