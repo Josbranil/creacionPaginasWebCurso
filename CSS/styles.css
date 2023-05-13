@@ -70,6 +70,8 @@ header div {
 
 #hero .informacion-contenedor .informacion h3 {
     color: whitesmoke;
+    background-color: #000000;
+    width: max-content;
 }
 
 #hero .informacion-contenedor .informacion span {
@@ -124,7 +126,7 @@ main .social-icons #Platzi {
 }
 
 main .social-icons #LinkedIn:hover {
-    background-color: #1e40bd;
+    background-color: #000000;
 } 
 
 main .social-icons #GitHub:hover {
@@ -132,7 +134,7 @@ main .social-icons #GitHub:hover {
 } 
 
 main .social-icons #Platzi:hover {
-    background-color: rgb(48, 154, 50);
+    background-color: #000000;
 } 
 
 @media (max-width: 650px) {
