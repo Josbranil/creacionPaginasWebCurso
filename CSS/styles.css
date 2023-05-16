@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: monospace;
+    font-family: 'Quicksand', sans-serif;
     font-size: 160%;
 }
 
@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-/* Acá tengo los estilos del header */
+/* Acá están los estilos del header */
 
 header {
     color: white;
@@ -28,12 +28,14 @@ header {
 }
 
 header div {
+    font-size: 70%;
     text-align: center;
 }
 
 /* Acá están los estilos del hero */
 
 #hero {
+    font-family: monospace;
     position: relative;
 }
 
@@ -83,9 +85,10 @@ header div {
 /* Estilos del main */
 
 main {
-    padding: 10%;
+    padding: 5%;
     text-align: left;
     font-size: x-large;
+    font-size: 80%;
 }
 
 main p a {
