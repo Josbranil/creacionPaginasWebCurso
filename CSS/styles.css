@@ -70,6 +70,10 @@ header div {
     width: calc(100% - 200px);
 }
 
+.hero .informacion-contenedor .informacion {
+    text-shadow: 2px 3px 2px BLACK;
+}
+
 .hero .informacion-contenedor .informacion h3 {
     color: whitesmoke;
     background-color: #000000;
