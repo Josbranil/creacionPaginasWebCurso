@@ -1,3 +1,5 @@
+/* Estilos generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +11,6 @@ body {
     font-size: 160%;
 }
 
-/* A continuación los estilos generales */
-
 .image-container {
     display: flex;
 }
@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-/* Acá están los estilos del header */
+/* Estilos del header */
 
 header {
     color: white;
@@ -32,7 +32,7 @@ header div {
     text-align: center;
 }
 
-/* Acá están los estilos del hero */
+/* Estilos del hero */
 
 .hero {
     font-family: monospace;
