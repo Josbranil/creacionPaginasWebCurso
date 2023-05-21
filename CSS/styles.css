@@ -1,5 +1,3 @@
-/* Estilos generales */
-
 * {
     margin: 0;
     padding: 0;
@@ -19,8 +17,6 @@ body {
     width: 100%;
 }
 
-/* Estilos del header */
-
 header {
     color: white;
     background-color: #000000;
@@ -32,16 +28,9 @@ header div {
     text-align: center;
 }
 
-/* Estilos del hero */
-
 .hero {
     font-family: monospace;
     position: relative;
-}
-
-.hero .computadora {
-    display: inline-block;
-    width: 100%;
 }
 
 .hero .informacion-contenedor {
@@ -86,17 +75,11 @@ header div {
     margin-bottom: 10%;
 }
 
-/* Estilos del main */
-
 main {
     padding: 5%;
     text-align: left;
     font-size: x-large;
     font-size: 80%;
-}
-
-main p a {
-    text-decoration: none;
 }
 
 main .social-icons {
@@ -132,15 +115,7 @@ main .social-icons .Platzi {
     background-color: #111b59
 }
 
-main .social-icons .LinkedIn:hover {
-    background-color: #000000;
-} 
-
-main .social-icons .GitHub:hover {
-    background-color: #000000;
-} 
-
-main .social-icons .Platzi:hover {
+main .social-icons .social-icon:hover {
     background-color: #000000;
 } 
 
